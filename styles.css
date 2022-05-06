@@ -1,16 +1,53 @@
 
 body {
-    background: black;
+    width: 100%;
+    height: 100%;
+    background: rgb(173, 167, 167);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+.cabecera{
+    align-content: center;
+    background-color: rgb(250, 253, 255);
+    width: 100%;
+    height: 20%;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 22%;
+    
+}
+
+
+.cabecera > h1{
+    margin-left: 32%;
+    color: black;
+    align-items: center;
+    
+}
+
+.cabecera > p{
+   color: rgb(46, 43, 43);
+   float: right;
+   align-items: center;
+
 }
 
 .post {
-    background-color: white;
+    background-color: rgb(255, 253, 253);
     width: 500px;
-    height: 600px;
+    height: 500px;
     margin: auto;
-    position: absolute;
+    margin-top: 22%;
+    margin-left: 50%;
+    display: inline-block;
+    position: inherit;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -24,25 +61,29 @@ body {
 .post-header {
     overflow: hidden;
     max-height: 50px;
-    padding: 20px;
+    /*padding: 20px;*/
 }
-.post-header img {
-    max-width: 35px;
-    float: left;
-margin: 10px;
+
+
+.post-body > h1{
+    margin-left: 32%;
+    color: black;
+    font-size: 20px;
 }
+
+.post-body > p{
+   color: rgb(46, 43, 43);
+   font-size: 20px;
+   float: right;
+
+}
+
 
 .post-header h1 {
     font-size: 20px;
     margin: auto;
 }
-.post-header > .post-list{
-    
-    float: right;
-    margin: 0px;
-    
-    
-}
+
 .post-body{
     
     padding: 0px;
