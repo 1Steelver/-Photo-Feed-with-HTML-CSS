@@ -1,4 +1,4 @@
-
+/*
 body {
     width: 100%;
     height: 100%;
@@ -61,8 +61,7 @@ body {
 .post-header {
     overflow: hidden;
     max-height: 50px;
-    /*padding: 20px;*/
-}
+    /*padding: 20px;*
 
 
 .post-body > h1{
@@ -100,4 +99,56 @@ body {
 .post-body p{
     font-size: 15px;
     padding: 10px;
+}*/
+
+
+body{
+    background-color:#d4cbcb;
+    font-family: 'Roboto', sans-serif;
+    display: block;
 }
+
+
+.cabecera{
+      background: white;
+}
+
+.cabecera h1{
+  font-size:44px;
+  text-align: center;
+}
+
+.post{
+     
+     background-color: rgb(255, 255, 255);
+     margin-top:40px;
+     box-shadow: 1px 3px 7px grey ;
+     width: 500px;
+     height: 500px;
+     margin-left: 36%;
+}
+
+.post-header{
+                display:flex;
+                justify-content:space-between;
+                text-align: center;
+}
+
+.post h1{
+    padding:15px 15px;
+    margin:0;
+}
+
+.post p{
+        padding:15px 15px;
+        margin:0;
+        
+        
+}
+
+img{
+   width:100%;
+}
+
+
+
